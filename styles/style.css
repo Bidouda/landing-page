@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global padding */
+.global-padding {
+  padding: 0 200px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.header-left {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-right {
+  display: flex;
+  gap: 25px;
+  font-size: 18px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
