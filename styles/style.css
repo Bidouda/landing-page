@@ -96,3 +96,41 @@ body {
   align-items: center;
   color: #F9FAF8;
 }
+
+.information {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 25px 50px 100px;
+  gap: 25px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+
+.information-cards {
+  display: flex;
+}
+
+.information-cards-placeholder {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  border: 3px solid #3882F6;
+}
+
+.information-cards-card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.information-cards-card p {
+  font-size: 18px;
+}
