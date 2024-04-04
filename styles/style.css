@@ -26,6 +26,10 @@ body {
   background-color: #1F2937;
 }
 
+.section-three {
+  background-color: #E5E7EB;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -132,4 +136,22 @@ body {
 
 .information-cards-card p {
   font-size: 18px;
+}
+
+.quote {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  padding: 100px 0 75px;
+}
+
+.quote-text-citation {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light italic;
+  color: #1F2937;
 }
