@@ -22,7 +22,7 @@ body {
   flex-direction: column;
 }
 
-.top, .section-one {
+.top, .section-one, .bottom {
   background-color: #1F2937;
 }
 
@@ -55,6 +55,7 @@ body {
 
 .hero {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 100px 0;
   gap: 100px;
@@ -123,6 +124,9 @@ body {
 
 .information-cards {
   display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .information-cards-placeholder {
@@ -143,6 +147,7 @@ body {
 
 .information-cards-card p {
   font-size: 18px;
+  max-width: 200px;
 }
 
 .quote {
@@ -185,4 +190,16 @@ body {
 .call-to-action-left p {
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.footer p {
+  font-size: 18px;
+  color: white;
 }
